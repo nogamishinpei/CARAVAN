@@ -19,7 +19,7 @@ class BlogsController < ApplicationController
   end
 
   def edit
-    @blog = Blog.find(parms[:id])
+    @blog = Blog.find(params[:id])
   end
   
   def update
